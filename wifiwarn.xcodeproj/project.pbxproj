@@ -1,0 +1,292 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED4532F11D476BB900C3D9F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4532F01D476BB900C3D9F1 /* AppDelegate.swift */; };
+		ED4532F31D476BB900C3D9F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED4532F21D476BB900C3D9F1 /* Assets.xcassets */; };
+		ED4532F61D476BB900C3D9F1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED4532F41D476BB900C3D9F1 /* MainMenu.xib */; };
+		ED4532FF1D4770AC00C3D9F1 /* WifiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4532FD1D4770AC00C3D9F1 /* WifiViewController.swift */; };
+		ED4533001D4770AC00C3D9F1 /* WifiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED4532FE1D4770AC00C3D9F1 /* WifiViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ED4532ED1D476BB900C3D9F1 /* wifiwarn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wifiwarn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED4532F01D476BB900C3D9F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED4532F21D476BB900C3D9F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED4532F51D476BB900C3D9F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		ED4532F71D476BB900C3D9F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED4532FD1D4770AC00C3D9F1 /* WifiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WifiViewController.swift; sourceTree = "<group>"; };
+		ED4532FE1D4770AC00C3D9F1 /* WifiViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WifiViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED4532EA1D476BB900C3D9F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED4532E41D476BB900C3D9F1 = {
+			isa = PBXGroup;
+			children = (
+				ED4532EF1D476BB900C3D9F1 /* wifiwarn */,
+				ED4532EE1D476BB900C3D9F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED4532EE1D476BB900C3D9F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED4532ED1D476BB900C3D9F1 /* wifiwarn.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED4532EF1D476BB900C3D9F1 /* wifiwarn */ = {
+			isa = PBXGroup;
+			children = (
+				ED4532F01D476BB900C3D9F1 /* AppDelegate.swift */,
+				ED4532FD1D4770AC00C3D9F1 /* WifiViewController.swift */,
+				ED4532FE1D4770AC00C3D9F1 /* WifiViewController.xib */,
+				ED4532F21D476BB900C3D9F1 /* Assets.xcassets */,
+				ED4532F41D476BB900C3D9F1 /* MainMenu.xib */,
+				ED4532F71D476BB900C3D9F1 /* Info.plist */,
+			);
+			path = wifiwarn;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED4532EC1D476BB900C3D9F1 /* wifiwarn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED4532FA1D476BB900C3D9F1 /* Build configuration list for PBXNativeTarget "wifiwarn" */;
+			buildPhases = (
+				ED4532E91D476BB900C3D9F1 /* Sources */,
+				ED4532EA1D476BB900C3D9F1 /* Frameworks */,
+				ED4532EB1D476BB900C3D9F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wifiwarn;
+			productName = wifiwarn;
+			productReference = ED4532ED1D476BB900C3D9F1 /* wifiwarn.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED4532E51D476BB900C3D9F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Cole Mickens";
+				TargetAttributes = {
+					ED4532EC1D476BB900C3D9F1 = {
+						CreatedOnToolsVersion = 7.3.1;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = ED4532E81D476BB900C3D9F1 /* Build configuration list for PBXProject "wifiwarn" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED4532E41D476BB900C3D9F1;
+			productRefGroup = ED4532EE1D476BB900C3D9F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED4532EC1D476BB900C3D9F1 /* wifiwarn */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED4532EB1D476BB900C3D9F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED4532F31D476BB900C3D9F1 /* Assets.xcassets in Resources */,
+				ED4533001D4770AC00C3D9F1 /* WifiViewController.xib in Resources */,
+				ED4532F61D476BB900C3D9F1 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED4532E91D476BB900C3D9F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED4532F11D476BB900C3D9F1 /* AppDelegate.swift in Sources */,
+				ED4532FF1D4770AC00C3D9F1 /* WifiViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ED4532F41D476BB900C3D9F1 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED4532F51D476BB900C3D9F1 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED4532F81D476BB900C3D9F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED4532F91D476BB900C3D9F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		ED4532FB1D476BB900C3D9F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = wifiwarn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.colemickens.wifiwarn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ED4532FC1D476BB900C3D9F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = wifiwarn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.colemickens.wifiwarn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED4532E81D476BB900C3D9F1 /* Build configuration list for PBXProject "wifiwarn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED4532F81D476BB900C3D9F1 /* Debug */,
+				ED4532F91D476BB900C3D9F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED4532FA1D476BB900C3D9F1 /* Build configuration list for PBXNativeTarget "wifiwarn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED4532FB1D476BB900C3D9F1 /* Debug */,
+				ED4532FC1D476BB900C3D9F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED4532E51D476BB900C3D9F1 /* Project object */;
+}
